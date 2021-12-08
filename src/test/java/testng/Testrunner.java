@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = "src/test/resources/Features/Test.feature", 
 		glue = "stepdefinitions",
 		monochrome = true,
-		plugin= {"pretty", "html:target/HtmlReports"})
+		
 
  
 public class Testrunner extends AbstractTestNGCucumberTests   {
